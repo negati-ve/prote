@@ -1,0 +1,11 @@
+# Use PHP 5.5
+#AddHandler application/x-httpd-php55 .php 
+RewriteEngine On
+RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]   
+RewriteCond %{HTTP_HOST} ^apl\.acharyahabba\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.apl\.acharyahabba\.in$
+RewriteRule ^/?$ "http\:\/\/acharyahabba\.in\/apl\/" [R=301,L]
+
