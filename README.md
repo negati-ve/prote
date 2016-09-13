@@ -3,7 +3,7 @@
 - Named Prote as in Prototype (Also, was watching K-pax while coding this)
 - This framework is now obsolete. 
 - opensourced . If interested, you may build upon or use it for your own projects.
-- new version is much more simplified and modern .(link to be updated here soon)
+- *New version* is much more simplified and modern .(link to be updated here soon)
 - No tests were ever written for this framework but Prote has served several projects(some still running without any problems). Prote is built with "fail always than fail sometimes" in mind. 
 - prote relies heavily on its DIC container. Access to DIC is provided globally, hence every service is available everywhere. Helps prototyping quickly but security is also taken care of
 
